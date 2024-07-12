@@ -7,15 +7,14 @@ Dijkstra's algorithm finds the shortest path from a given source node to every o
 There are two required input files:
 
 city_connections.txt:
-
 Each line represents a connection between two cities.
 #### Format: CityA, CityB 
 Example:
 - CityA, CityB 
 - CityA, CityC
 - CityB, CityD
-- city_coordinates.txt:
 
+city_coordinates.txt:
 Each line contains the city name and its coordinates.
 #### Format: CityName, XCoord, YCoord
 Example:
