@@ -9,7 +9,7 @@ There are two required input files:
 city_connections.txt:
 
 Each line represents a connection between two cities.
-Format: CityA, CityB 
+# Format: CityA, CityB 
 Example:
 CityA, CityB 
 CityA, CityC
@@ -17,7 +17,7 @@ CityB, CityD
 city_coordinates.txt:
 
 Each line contains the city name and its coordinates.
-Format: CityName, XCoord, YCoord
+# Format: CityName, XCoord, YCoord
 Example:
 CityA, 34, 45
 CityB, 50, 78
