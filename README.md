@@ -9,21 +9,19 @@ There are two required input files:
 city_connections.txt:
 
 Each line represents a connection between two cities.
-Format: CityA CityB Distance
+Format: CityA, CityB 
 Example:
-Copy code
-CityA CityB 10
-CityA CityC 15
-CityB CityD 12
+CityA, CityB 
+CityA, CityC
+CityB, CityD
 city_coordinates.txt:
 
 Each line contains the city name and its coordinates.
-Format: CityName XCoord YCoord
+Format: CityName, XCoord, YCoord
 Example:
-Copy code
-CityA 34 45
-CityB 50 78
-CityC 23 56
+CityA, 34, 45
+CityB, 50, 78
+CityC, 23, 56
 
 ## Programming Language
 Java is used as the programming language
